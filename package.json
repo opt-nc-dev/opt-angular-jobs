@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.intranet.opt/opt-core/opt-angular-jobs.git"
+    "url": "git@github.com:opt-nc-dev/opt-angular-jobs.git"
   },
   "publishConfig": {
     "registry":"https://npm.pkg.github.com/"
