@@ -1,4 +1,4 @@
-name: Angular Jobs push Master
+name: Angular Jobs Release
 on:
   push:
     tags:

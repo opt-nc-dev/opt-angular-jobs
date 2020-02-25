@@ -15,7 +15,7 @@
     "url": "git+https://gitlab.intranet.opt/opt-core/opt-angular-jobs.git"
   },
   "publishConfig": {
-    "registry": "https://artifactory.intranet.opt/artifactory/api/npm/npm"
+    "registry": "https://npm.pkg.github.com/opt-nc-dev"
   },
   "typings": "index.d.ts",
   "private": false,
