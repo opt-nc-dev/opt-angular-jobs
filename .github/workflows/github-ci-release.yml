@@ -24,7 +24,7 @@ jobs:
           node-version: 12.13.1
       # Import des packages nodes
       - name: Install node.js packages
-        run: npm install
+        run: npm install --registry https://registry.npmjs.org
       # Package du livrable, ici au format jar, mais peut être fait en war avec la commande ./gradlew bootWar...
       - name: Publish to GitHub Packages
         run: npm publish
