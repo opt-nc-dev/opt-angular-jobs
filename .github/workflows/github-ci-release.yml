@@ -22,6 +22,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12.13.1
+          registry-url: 'https://npm.pkg.github.com'
       # Import des packages nodes
       - name: Install node.js packages
         run: npm install --registry https://registry.npmjs.org
@@ -32,6 +33,5 @@ jobs:
       - name: Publish to GitHub Packages
         run: npm publish
         env:
-          USERNAME: ${{ github.actor }}
-          PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
